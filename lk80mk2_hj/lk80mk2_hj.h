@@ -4,7 +4,7 @@
 
 
 enum keyboard_keycodes {
-    LOCK_GUI = QK_KB,
+    LOCK_GUI = USER00, // 改为 USER00 后，即可完美对应 VIA 客户端 Custom 菜单下的 USER00 ~ USER10
     TOG_MACOS_KEYMAP,
     TOG_WIN_KEYMAP,
     SW_CTR_GUI,
